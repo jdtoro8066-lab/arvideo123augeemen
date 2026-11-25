@@ -29,7 +29,7 @@
             "color": "#00b140",
             "enabled": true,
             "feather": 0.75,
-            "similarity": 0.53,
+            "similarity": 0.13,
             "smoothness": 0.14,
             "spill": 1
           }
@@ -54,7 +54,7 @@
       "id": "2b55622d-ebaf-44f9-ac3d-d423278878f1",
       "material": {
         "type": "video",
-        "color": "#ff0000",
+        "color": "#ffffff",
         "textureSrc": {
           "type": "asset",
           "asset": "assets/frente.mp4"
@@ -64,7 +64,7 @@
         "inreChroma": {
           "enabled": true,
           "color": "#00b140",
-          "similarity": 0.53,
+          "similarity": 0.13,
           "smoothness": 0.14,
           "feather": 0.75,
           "spill": 1
@@ -171,7 +171,7 @@
             "color": "#00b140",
             "enabled": true,
             "feather": 0,
-            "similarity": 0.48,
+            "similarity": 0.18,
             "smoothness": 0.11,
             "spill": 1
           }
@@ -207,7 +207,7 @@
         "inreChroma": {
           "enabled": true,
           "color": "#00b140",
-          "similarity": 0.48,
+          "similarity": 0.18,
           "smoothness": 0.11,
           "feather": 0,
           "spill": 1
