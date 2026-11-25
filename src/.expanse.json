@@ -170,10 +170,10 @@
           "parameters": {
             "color": "#00b140",
             "enabled": true,
-            "feather": 1.5,
-            "similarity": 0.28,
+            "feather": 0,
+            "similarity": 0.48,
             "smoothness": 0.11,
-            "spill": 0.4
+            "spill": 1
           }
         },
         "__inre_aparicion__": {
@@ -196,7 +196,7 @@
       "id": "71b3f3aa-fdd0-412d-b3df-ff8f6003ea9f",
       "material": {
         "type": "video",
-        "color": "#0040ff",
+        "color": "#181821",
         "textureSrc": {
           "type": "asset",
           "asset": "assets/Geometric_particle_motion_graphi__6ab67e04_1080p.mp4"
@@ -207,10 +207,10 @@
         "inreChroma": {
           "enabled": true,
           "color": "#00b140",
-          "similarity": 0.28,
+          "similarity": 0.48,
           "smoothness": 0.11,
-          "feather": 1.5,
-          "spill": 0.4
+          "feather": 0,
+          "spill": 1
         }
       },
       "name": "Geometric_particle_motion_graphi__6ab67e04_1080p",
