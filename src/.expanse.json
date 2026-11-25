@@ -196,7 +196,7 @@
       "id": "71b3f3aa-fdd0-412d-b3df-ff8f6003ea9f",
       "material": {
         "type": "video",
-        "color": "#181821",
+        "color": "#ffffff",
         "textureSrc": {
           "type": "asset",
           "asset": "assets/Geometric_particle_motion_graphi__6ab67e04_1080p.mp4"
