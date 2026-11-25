@@ -8,93 +8,6 @@
     "items": []
   },
   "objects": {
-    "2b55622d-ebaf-44f9-ac3d-d423278878f1": {
-      "components": {
-        "3ddb3664-0408-4516-aa93-257eb5940ef1": {
-          "id": "3ddb3664-0408-4516-aa93-257eb5940ef1",
-          "name": "inre-video",
-          "parameters": {
-            "alphaTest": 1,
-            "blending": "normal",
-            "depthTest": true,
-            "depthWrite": true,
-            "forceTransparent": true,
-            "side": "front"
-          }
-        },
-        "4a365ab4-43b4-4789-8b62-2b97391b305c": {
-          "id": "4a365ab4-43b4-4789-8b62-2b97391b305c",
-          "name": "inre-chroma",
-          "parameters": {
-            "color": "#00b140",
-            "enabled": true,
-            "feather": 0.75,
-            "similarity": 0.13,
-            "smoothness": 0.14,
-            "spill": 1
-          }
-        },
-        "__inre_aparicion__": {
-          "id": "__inre_aparicion__",
-          "name": "inre-aparicion",
-          "parameters": {
-            "cubo": 0.659,
-            "demora": 0.08,
-            "esGltf": false,
-            "esTextura": true,
-            "esVideo": true
-          }
-        }
-      },
-      "geometry": {
-        "type": "plane",
-        "width": 0.5625,
-        "height": 1
-      },
-      "id": "2b55622d-ebaf-44f9-ac3d-d423278878f1",
-      "material": {
-        "type": "video",
-        "color": "#ffffff",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/frente.mp4"
-        },
-        "opacity": 1,
-        "alphaTest": 1,
-        "inreChroma": {
-          "enabled": true,
-          "color": "#00b140",
-          "similarity": 0.13,
-          "smoothness": 0.14,
-          "feather": 0.75,
-          "spill": 1
-        },
-        "forceTransparent": true
-      },
-      "name": "frente",
-      "order": 1.0083811866551615,
-      "parentId": "c961b72a-dc57-4722-bdb7-e4f8273653cd",
-      "position": [
-        0,
-        0.131,
-        0.415
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.993,
-        0.993,
-        0.993
-      ],
-      "videoControls": {
-        "loop": true,
-        "paused": false
-      }
-    },
     "55aa4b06-9514-4d9f-826d-57d874a8f61a": {
       "components": {
         "__inre_aparicion__": {
@@ -102,7 +15,7 @@
           "name": "inre-aparicion",
           "parameters": {
             "cubo": 0.24,
-            "demora": 0.16,
+            "demora": 0,
             "esGltf": true,
             "esTextura": false,
             "esVideo": false
@@ -149,93 +62,6 @@
         0.313,
         0.313
       ]
-    },
-    "71b3f3aa-fdd0-412d-b3df-ff8f6003ea9f": {
-      "components": {
-        "1998f4c5-7c06-43ed-9f22-3e2a10d9a477": {
-          "id": "1998f4c5-7c06-43ed-9f22-3e2a10d9a477",
-          "name": "inre-video",
-          "parameters": {
-            "alphaTest": 1,
-            "blending": "normal",
-            "depthTest": true,
-            "depthWrite": true,
-            "forceTransparent": true,
-            "side": "front"
-          }
-        },
-        "620466ec-ff01-4e15-86bd-475769596c7b": {
-          "id": "620466ec-ff01-4e15-86bd-475769596c7b",
-          "name": "inre-chroma",
-          "parameters": {
-            "color": "#00b140",
-            "enabled": true,
-            "feather": 0,
-            "similarity": 0.18,
-            "smoothness": 0.11,
-            "spill": 1
-          }
-        },
-        "__inre_aparicion__": {
-          "id": "__inre_aparicion__",
-          "name": "inre-aparicion",
-          "parameters": {
-            "cubo": 0.75,
-            "demora": 0,
-            "esGltf": false,
-            "esTextura": true,
-            "esVideo": true
-          }
-        }
-      },
-      "geometry": {
-        "type": "plane",
-        "width": 0.5625,
-        "height": 1
-      },
-      "id": "71b3f3aa-fdd0-412d-b3df-ff8f6003ea9f",
-      "material": {
-        "type": "video",
-        "color": "#ffffff",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/Geometric_particle_motion_graphi__6ab67e04_1080p.mp4"
-        },
-        "opacity": 1,
-        "forceTransparent": true,
-        "alphaTest": 1,
-        "inreChroma": {
-          "enabled": true,
-          "color": "#00b140",
-          "similarity": 0.18,
-          "smoothness": 0.11,
-          "feather": 0,
-          "spill": 1
-        }
-      },
-      "name": "Geometric_particle_motion_graphi__6ab67e04_1080p",
-      "order": 0.00838118665516141,
-      "parentId": "c961b72a-dc57-4722-bdb7-e4f8273653cd",
-      "position": [
-        0,
-        0.098,
-        0.203
-      ],
-      "rotation": [
-        0.13258873777803543,
-        -0.006618656485707813,
-        -0.0008853962660767648,
-        0.991148644792598
-      ],
-      "scale": [
-        1.59,
-        1.59,
-        1.59
-      ],
-      "videoControls": {
-        "loop": true,
-        "paused": false
-      }
     },
     "88068363-79cb-4f96-8954-e72cc8b82bf9": {
       "components": {},
