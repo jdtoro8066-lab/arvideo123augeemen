@@ -10,18 +10,6 @@
   "objects": {
     "2b55622d-ebaf-44f9-ac3d-d423278878f1": {
       "components": {
-        "39e697e5-09a8-47e2-824f-5524a0570059": {
-          "id": "39e697e5-09a8-47e2-824f-5524a0570059",
-          "name": "inre-chroma",
-          "parameters": {
-            "color": "#0e0e14",
-            "enabled": true,
-            "feather": 1.5,
-            "similarity": 0.28,
-            "smoothness": 0.14,
-            "spill": 0.65
-          }
-        },
         "3ddb3664-0408-4516-aa93-257eb5940ef1": {
           "id": "3ddb3664-0408-4516-aa93-257eb5940ef1",
           "name": "inre-video",
@@ -32,6 +20,18 @@
             "depthWrite": true,
             "forceTransparent": true,
             "side": "front"
+          }
+        },
+        "4a365ab4-43b4-4789-8b62-2b97391b305c": {
+          "id": "4a365ab4-43b4-4789-8b62-2b97391b305c",
+          "name": "inre-chroma",
+          "parameters": {
+            "color": "#00b140",
+            "enabled": true,
+            "feather": 0.75,
+            "similarity": 0.53,
+            "smoothness": 0.14,
+            "spill": 1
           }
         },
         "__inre_aparicion__": {
@@ -63,11 +63,11 @@
         "alphaTest": 1,
         "inreChroma": {
           "enabled": true,
-          "color": "#0e0e14",
-          "similarity": 0.28,
+          "color": "#00b140",
+          "similarity": 0.53,
           "smoothness": 0.14,
-          "feather": 1.5,
-          "spill": 0.65
+          "feather": 0.75,
+          "spill": 1
         },
         "forceTransparent": true
       },
@@ -168,7 +168,7 @@
           "id": "620466ec-ff01-4e15-86bd-475769596c7b",
           "name": "inre-chroma",
           "parameters": {
-            "color": "#000000",
+            "color": "#00b140",
             "enabled": true,
             "feather": 1.5,
             "similarity": 0.28,
@@ -206,7 +206,7 @@
         "alphaTest": 1,
         "inreChroma": {
           "enabled": true,
-          "color": "#000000",
+          "color": "#00b140",
           "similarity": 0.28,
           "smoothness": 0.11,
           "feather": 1.5,
