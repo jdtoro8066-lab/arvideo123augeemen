@@ -1,5 +1,12 @@
 {
   "entrySpaceId": "937c47e5-1433-46b8-9dc3-87c69d4beda9",
+  "inreTimeline": {
+    "duration": 9.6,
+    "fps": 30,
+    "loop": true,
+    "autoplay": true,
+    "items": []
+  },
   "objects": {
     "2b55622d-ebaf-44f9-ac3d-d423278878f1": {
       "components": {
@@ -19,11 +26,11 @@
           "id": "3ddb3664-0408-4516-aa93-257eb5940ef1",
           "name": "inre-video",
           "parameters": {
-            "alphaTest": 0.09,
+            "alphaTest": 1,
             "blending": "normal",
             "depthTest": true,
             "depthWrite": true,
-            "forceTransparent": false,
+            "forceTransparent": true,
             "side": "front"
           }
         },
@@ -53,7 +60,7 @@
           "asset": "assets/frente.mp4"
         },
         "opacity": 1,
-        "alphaTest": 0.09,
+        "alphaTest": 1,
         "inreChroma": {
           "enabled": true,
           "color": "#0e0e14",
@@ -61,7 +68,8 @@
           "smoothness": 0.14,
           "feather": 1.5,
           "spill": 0.65
-        }
+        },
+        "forceTransparent": true
       },
       "name": "frente",
       "order": 1.0083811866551615,
@@ -144,15 +152,15 @@
     },
     "71b3f3aa-fdd0-412d-b3df-ff8f6003ea9f": {
       "components": {
-        "1c4fba93-bee4-4599-91ab-735cd417f84b": {
-          "id": "1c4fba93-bee4-4599-91ab-735cd417f84b",
+        "1998f4c5-7c06-43ed-9f22-3e2a10d9a477": {
+          "id": "1998f4c5-7c06-43ed-9f22-3e2a10d9a477",
           "name": "inre-video",
           "parameters": {
-            "alphaTest": 0.07,
+            "alphaTest": 1,
             "blending": "normal",
             "depthTest": true,
             "depthWrite": true,
-            "forceTransparent": false,
+            "forceTransparent": true,
             "side": "front"
           }
         },
@@ -194,8 +202,8 @@
           "asset": "assets/Geometric_particle_motion_graphi__6ab67e04_1080p.mp4"
         },
         "opacity": 1,
-        "forceTransparent": false,
-        "alphaTest": 0.07,
+        "forceTransparent": true,
+        "alphaTest": 1,
         "inreChroma": {
           "enabled": true,
           "color": "#000000",
