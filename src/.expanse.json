@@ -52,6 +52,8 @@
           "type": "asset",
           "asset": "assets/frente.mp4"
         },
+        "opacity": 1,
+        "alphaTest": 0.09,
         "inreChroma": {
           "enabled": true,
           "color": "#0e0e14",
@@ -59,9 +61,7 @@
           "smoothness": 0.14,
           "feather": 1.5,
           "spill": 0.65
-        },
-        "alphaTest": 0.09,
-        "opacity": 1
+        }
       },
       "name": "frente",
       "order": 1.0083811866551615,
@@ -193,6 +193,9 @@
           "type": "asset",
           "asset": "assets/Geometric_particle_motion_graphi__6ab67e04_1080p.mp4"
         },
+        "opacity": 1,
+        "forceTransparent": false,
+        "alphaTest": 0.07,
         "inreChroma": {
           "enabled": true,
           "color": "#000000",
@@ -200,10 +203,7 @@
           "smoothness": 0.11,
           "feather": 1.5,
           "spill": 0.4
-        },
-        "alphaTest": 0.07,
-        "forceTransparent": false,
-        "opacity": 1
+        }
       },
       "name": "Geometric_particle_motion_graphi__6ab67e04_1080p",
       "order": 0.00838118665516141,
